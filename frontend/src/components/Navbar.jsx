@@ -22,7 +22,7 @@ const Navbar = () => {
          </NavLink>
       </div>
       <div>
-         <p className='bg-primary text-white px-8 py-3 rounded-full font-medium  md:block '>Create Account</p>
+         <p className='bg-primary text-white px-8 py-3 rounded-full font-medium mb-4  md:block '>Create Account</p>
       </div>
     </div>
   )
