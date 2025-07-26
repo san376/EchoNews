@@ -24,6 +24,7 @@ const Navbar = () => {
       <div>
          <p className='bg-primary text-white px-8 py-3 rounded-full font-medium mb-4  md:block '>Create Account</p>
       </div>
+      <p></p>
     </div>
   )
 }
