@@ -4,6 +4,7 @@ import Home from './pages/Home'
 import Navbar from './components/Navbar'
 import Selectnews from './pages/Selectnews'
 import About from './pages/About'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Route path='/contact' element={<About/>}/>
 
       </Routes>
+      <Footer/>
     </div>
   )
 }

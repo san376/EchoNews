@@ -6,26 +6,27 @@ import logo2 from '../assets/logo2.png'
 
 const Navbar = () => {
   return (
-    <div className='flex items-center justify-between text:sm py-4 mb-4 border-b border-gray-400'>
-        <img src={logo2} alt="" className='w-80 h-40 rounded-full' />
-      <div className=' md:flex items-start gap-5 font-medium'>
+    <div className='flex items-center grid-cols-3 justify-between text:sm py-4 border-b border-gray-400'>
+        <div>
+          <img src={logo1} alt="" className='w-25 h-18 rounded-full' />
+        </div>
+      <div className=' md:flex items-start gap-6 font-medium'>
          <NavLink to='/'>
-            Home
+            <p className='border-b-2 border-transparent hover:border-blue-400'>Home</p>
          </NavLink>
           <NavLink to='/select-news'>
-            Select-News
+            <p className='border-b-2 border-transparent hover:border-blue-400'>Select-News</p>
          </NavLink>
           <NavLink to='/about'>
-            About
+            <p className='border-b-2 border-transparent hover:border-blue-400'>About</p>
          </NavLink>
           <NavLink to='/contact'>
-            Contact
+            <p className='border-b-2 border-transparent hover:border-blue-400'>Contact</p>
          </NavLink>
       </div>
       <div>
-         <p className='bg-primary text-white px-8 py-3 rounded-full font-medium mb-4  md:block '>Create Account</p>
+         <p className='bg-primary text-white px-8 py-3 rounded-full font-medium  md:block mr-10 '>Create Account</p>
       </div>
-      <p></p>
     </div>
   )
 }
